@@ -17,7 +17,7 @@ pipeline {
         }
         stage('git checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Balu1plus6/jenkins-docker-testing.git'
+                git branch: 'master', url: 'https://github.com/Balu1plus6/core.git'
             }
         }
 
